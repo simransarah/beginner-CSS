@@ -1,0 +1,35 @@
+*{
+    box-sizing: border box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    height: 500px;
+    /*flex-direction: column;*/
+    display: flex;
+    background-color: #f4f4f4;
+    /* always on the main axis */
+    /*justify-content: end;*/
+    /*always on the cross axis*/
+    /*align-items: start;*/
+
+    /*flex-wrap: wrap;*/
+}
+
+.item {
+    flex: 1;
+    height: 100px;
+    background: #254de4;
+    margin: 10px;
+    color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
